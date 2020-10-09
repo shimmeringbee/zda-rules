@@ -1,0 +1,24 @@
+{
+  "Description": "Root node.",
+  "Children": [
+    {
+      "Description": "Xiaomi WSDCGQ01LM",
+      "Filter": {
+        "ManufacturerCode": 4151,
+        "ManufacturerName": "LUMI",
+        "ProductName": "lumi.sens",
+        "DeviceId": 24321
+      },
+      "Settings": {
+        "TemperatureSensor": {
+          "HasCapability": true,
+          "Endpoint": 1
+        },
+        "RelativeHumiditySensor": {
+          "HasCapability": true,
+          "Endpoint": 1
+        }
+      }
+    }
+  ]
+}
