@@ -2,55 +2,67 @@
   "Description": "Root node.",
   "Children": [
     {
-      "Description": "Xiaomi WSDCGQ01LM",
+      "Description": "Jennic Limited (owned by NXP Semiconductors, OEM module provider).",
       "Filter": {
-        "ManufacturerCode": 4151,
-        "ManufacturerName": "LUMI",
-        "ProductName": "lumi.sens",
-        "DeviceId": 24321
+        "ManufacturerCode": 4151
       },
-      "Settings": {
-        "TemperatureSensor": {
-          "HasCapability": true,
-          "Endpoint": 1,
-          "AttemptBinding": false,
-          "AttemptReporting": false,
-          "RequiresPolling": false
-        },
-        "RelativeHumiditySensor": {
-          "HasCapability": true,
-          "Endpoint": 1,
-          "AttemptBinding": false,
-          "AttemptReporting": false,
-          "RequiresPolling": false
+      "Children": [
+        {
+          "Description": "Lumi United Technology Co, Ltd (joined Xiaomi in 2015).",
+          "Filter": {
+            "ManufacturerName": "LUMI"
+          },
+          "Children": [
+            {
+              "Description": "Xiaomi WSDCGQ01LM",
+              "Filter": {
+                "ProductName": "lumi.sens",
+                "DeviceId": 24321
+              },
+              "Settings": {
+                "TemperatureSensor": {
+                  "HasCapability": true,
+                  "Endpoint": 1,
+                  "AttemptBinding": false,
+                  "AttemptReporting": false,
+                  "RequiresPolling": false
+                },
+                "RelativeHumiditySensor": {
+                  "HasCapability": true,
+                  "Endpoint": 1,
+                  "AttemptBinding": false,
+                  "AttemptReporting": false,
+                  "RequiresPolling": false
+                }
+              }
+            },
+            {
+              "Description": "Xiaomi WSDCGQ11LM",
+              "Filter": {
+                "ProductName": "lumi.weather",
+                "DeviceId": 770
+              },
+              "Settings": {
+                "TemperatureSensor": {
+                  "AttemptBinding": false,
+                  "AttemptReporting": false,
+                  "RequiresPolling": false
+                },
+                "RelativeHumiditySensor": {
+                  "AttemptBinding": false,
+                  "AttemptReporting": false,
+                  "RequiresPolling": false
+                },
+                "PressureSensor": {
+                  "AttemptBinding": false,
+                  "AttemptReporting": false,
+                  "RequiresPolling": false
+                }
+              }
+            }
+          ]
         }
-      }
-    },
-    {
-      "Description": "Xiaomi WSDCGQ11LM",
-      "Filter": {
-        "ManufacturerCode": 4151,
-        "ManufacturerName": "LUMI",
-        "ProductName": "lumi.weather",
-        "DeviceId": 770
-      },
-      "Settings": {
-        "TemperatureSensor": {
-          "AttemptBinding": false,
-          "AttemptReporting": false,
-          "RequiresPolling": false
-        },
-        "RelativeHumiditySensor": {
-          "AttemptBinding": false,
-          "AttemptReporting": false,
-          "RequiresPolling": false
-        },
-        "PressureSensor": {
-          "AttemptBinding": false,
-          "AttemptReporting": false,
-          "RequiresPolling": false
-        }
-      }
+      ]
     }
   ]
 }
