@@ -12,11 +12,43 @@
       "Settings": {
         "TemperatureSensor": {
           "HasCapability": true,
-          "Endpoint": 1
+          "Endpoint": 1,
+          "AttemptBinding": false,
+          "AttemptReporting": false,
+          "RequiresPolling": false
         },
         "RelativeHumiditySensor": {
           "HasCapability": true,
-          "Endpoint": 1
+          "Endpoint": 1,
+          "AttemptBinding": false,
+          "AttemptReporting": false,
+          "RequiresPolling": false
+        }
+      }
+    },
+    {
+      "Description": "Xiaomi WSDCGQ11LM",
+      "Filter": {
+        "ManufacturerCode": 4151,
+        "ManufacturerName": "LUMI",
+        "ProductName": "lumi.weather",
+        "DeviceId": 770
+      },
+      "Settings": {
+        "TemperatureSensor": {
+          "AttemptBinding": false,
+          "AttemptReporting": false,
+          "RequiresPolling": false
+        },
+        "RelativeHumiditySensor": {
+          "AttemptBinding": false,
+          "AttemptReporting": false,
+          "RequiresPolling": false
+        },
+        "PressureSensor": {
+          "AttemptBinding": false,
+          "AttemptReporting": false,
+          "RequiresPolling": false
         }
       }
     }
