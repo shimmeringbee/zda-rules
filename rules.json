@@ -63,6 +63,34 @@
           ]
         }
       ]
+    },
+    {
+      "Description": "Lumi United Technology Co, Ltd.",
+      "Filter": {
+        "ManufacturerCode": 4447
+      },
+      "Children": [
+        {
+          "Description": "Lumi United Technology Co, Ltd (joined Xiaomi in 2015).",
+          "Filter": {
+            "ManufacturerName": "LUMI"
+          },
+          "Children": [
+            {
+              "Description": "CC2XXX Router (https://github.com/Koenkk/Z-Stack-firmware/tree/master/router)",
+              "Filter": {
+                "ProductName": "lumi.router",
+                "DeviceId": 256
+              },
+              "Settings": {
+                "OnOff": {
+                  "HasCapability": false
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
