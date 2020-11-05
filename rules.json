@@ -33,6 +33,14 @@
                   "AttemptBinding": false,
                   "AttemptReporting": false,
                   "RequiresPolling": false
+                },
+                "PowerSupply": {
+                  "HasBasicPowerSource": false,
+                  "HasPowerConfiguration": false,
+                  "HasVendorXiaomiApproachOne": true,
+                  "AttemptBinding": false,
+                  "AttemptReporting": false,
+                  "RequiresPolling": false
                 }
               }
             },
@@ -54,6 +62,14 @@
                   "RequiresPolling": false
                 },
                 "PressureSensor": {
+                  "AttemptBinding": false,
+                  "AttemptReporting": false,
+                  "RequiresPolling": false
+                },
+                "PowerSupply": {
+                  "HasBasicPowerSource": false,
+                  "HasPowerConfiguration": false,
+                  "HasVendorXiaomiApproachOne": true,
                   "AttemptBinding": false,
                   "AttemptReporting": false,
                   "RequiresPolling": false
