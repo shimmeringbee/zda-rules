@@ -40,7 +40,9 @@
                   "HasVendorXiaomiApproachOne": true,
                   "AttemptBinding": false,
                   "AttemptReporting": false,
-                  "RequiresPolling": false
+                  "RequiresPolling": false,
+                  "MaximumVoltage": 3,
+                  "MinimumVoltage": 2
                 }
               }
             },
@@ -72,7 +74,9 @@
                   "HasVendorXiaomiApproachOne": true,
                   "AttemptBinding": false,
                   "AttemptReporting": false,
-                  "RequiresPolling": false
+                  "RequiresPolling": false,
+                  "MaximumVoltage": 3,
+                  "MinimumVoltage": 2
                 }
               }
             }
