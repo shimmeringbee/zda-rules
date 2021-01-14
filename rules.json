@@ -12,6 +12,18 @@
           "Filter": {
             "ManufacturerName": "LUMI"
           },
+          "Settings": {
+            "PowerSupply": {
+              "HasBasicPowerSource": false,
+              "HasPowerConfiguration": false,
+              "HasVendorXiaomiApproachOne": true,
+              "AttemptBinding": false,
+              "AttemptReporting": false,
+              "RequiresPolling": false,
+              "MaximumVoltage": 3,
+              "MinimumVoltage": 2
+            }
+          },
           "Children": [
             {
               "Description": "Xiaomi WSDCGQ01LM",
@@ -33,16 +45,6 @@
                   "AttemptBinding": false,
                   "AttemptReporting": false,
                   "RequiresPolling": false
-                },
-                "PowerSupply": {
-                  "HasBasicPowerSource": false,
-                  "HasPowerConfiguration": false,
-                  "HasVendorXiaomiApproachOne": true,
-                  "AttemptBinding": false,
-                  "AttemptReporting": false,
-                  "RequiresPolling": false,
-                  "MaximumVoltage": 3,
-                  "MinimumVoltage": 2
                 }
               }
             },
@@ -67,16 +69,6 @@
                   "AttemptBinding": false,
                   "AttemptReporting": false,
                   "RequiresPolling": false
-                },
-                "PowerSupply": {
-                  "HasBasicPowerSource": false,
-                  "HasPowerConfiguration": false,
-                  "HasVendorXiaomiApproachOne": true,
-                  "AttemptBinding": false,
-                  "AttemptReporting": false,
-                  "RequiresPolling": false,
-                  "MaximumVoltage": 3,
-                  "MinimumVoltage": 2
                 }
               }
             }
