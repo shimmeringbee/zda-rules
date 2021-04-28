@@ -33,18 +33,20 @@
               },
               "Settings": {
                 "TemperatureSensor": {
-                  "HasCapability": true,
+                  "HasTemperatureMeasurementZCLCluster": true,
                   "Endpoint": 1,
                   "AttemptBinding": false,
                   "AttemptReporting": false,
-                  "RequiresPolling": false
+                  "RequiresPolling": false,
+                  "HasVendorXiaomiApproachOne": true
                 },
                 "RelativeHumiditySensor": {
-                  "HasCapability": true,
+                  "HasRelativeHumidityMeasurementZCLCluster": true,
                   "Endpoint": 1,
                   "AttemptBinding": false,
                   "AttemptReporting": false,
-                  "RequiresPolling": false
+                  "RequiresPolling": false,
+                  "HasVendorXiaomiApproachOne": true
                 }
               }
             },
@@ -58,17 +60,20 @@
                 "TemperatureSensor": {
                   "AttemptBinding": false,
                   "AttemptReporting": false,
-                  "RequiresPolling": false
+                  "RequiresPolling": false,
+                  "HasVendorXiaomiApproachOne": true
                 },
                 "RelativeHumiditySensor": {
                   "AttemptBinding": false,
                   "AttemptReporting": false,
-                  "RequiresPolling": false
+                  "RequiresPolling": false,
+                  "HasVendorXiaomiApproachOne": true
                 },
                 "PressureSensor": {
                   "AttemptBinding": false,
                   "AttemptReporting": false,
-                  "RequiresPolling": false
+                  "RequiresPolling": false,
+                  "HasVendorXiaomiApproachOne": true
                 }
               }
             }
